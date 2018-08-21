@@ -5,12 +5,12 @@
 ### Commands
 - /setrank <player> <rank> - Sets a player to a given rank
   - Alias: /rank
-  - Please note the rank doesn't have to exist (PEX is too outdated to properly check that sort of stuff efficiently, haha...)
-![image](https://imgur.com/5lZXj8b) <br>
-![image](https://imgur.com/KcKFT4H)
+  - Please note the rank doesn't have to exist (PEX is too outdated to properly check that sort of stuff efficiently, haha...) <br>
+![](https://i.imgur.com/5lZXj8b.jpg) <br>
+![](https://i.imgur.com/KcKFT4H.jpg)
 - /setrankhelp - Displays the help menu
-  - Alias: /srhelp
-![image](https://imgur.com/pWPSQ02)
+  - Alias: /srhelp <br>
+![](https://i.imgur.com/pWPSQ02.jpg)
 - /setrankreload
   - Alias: /srreload
 
