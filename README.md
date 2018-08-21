@@ -18,8 +18,10 @@
 
 ### Permissions
 - setrank.base - Base permission needed for primary check, you need to add this!attachFull365552
-- srpex.rankto.groupName - Allows a player to rank someone TO the given groupName (e.g. srpex.rankto.Admin) attachFull365554 
-- srpex.rankfrom.groupName - Allows a player to rank someone FROM the given groupName (e.g. srpex.rankfrom.visitor)attachFull365553
+- srpex.rankto.groupName - Allows a player to rank someone TO the given groupName (e.g. srpex.rankto.Admin) <br>
+![](https://i.imgur.com/jgEwXgB.jpg)
+- srpex.rankfrom.groupName - Allows a player to rank someone FROM the given groupName (e.g. srpex.rankfrom.visitor) <br>
+![](https://i.imgur.com/G3R3Zrr.jpg)
 - srpex.reload - Reloads the configuration file
 - srpex.* - All permissions!
 
