@@ -1,8 +1,9 @@
 name: SetRankPEX
 author: ByteKangaroo, Irock23
 main: com.bytekangaroo.setrankpex.Main
-version: 1.0
+version: 1.01
 api-version: 1.13
+depend: [PermissionsEx]
 description: A re-write of SetRankPEX, but maintained and updated for 1.12/1.13!
 commands:
   setrank:
