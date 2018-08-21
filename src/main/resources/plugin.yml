@@ -1,0 +1,39 @@
+name: SetRankPEX
+author: ByteKangaroo, Irock23
+main: com.bytekangaroo.setrankpex.Main
+version: 1.0
+api-version: 1.13
+description: A re-write of SetRankPEX, but maintained and updated for 1.12/1.13!
+commands:
+  setrank:
+    aliases: [rank]
+    usage: /<command> <player> <rank>
+    description: Sets a player to a given rank
+  setrankreload:
+    aliases: [srreload]
+    usage: /<command>
+    description: Reloads the setrankpex configuration
+  setrankhelp:
+    aliases: [srhelp]
+    usage: /<command>
+    description: Provides a help menu for the plugin, commands and comman usages.
+permissions:
+  setrank.base:
+    description: Base permission needed for primary check (need to add this!)
+  srpex.*:
+    description: Gives permission to all setrankpex commands
+    children:
+      srpex.setrank.*: true
+      srpex.rankto.*: true
+      srpex.rankfrom.*: true
+      srpex.reload: true
+  srpex.setrank.*:
+    description: Gives permission to rank a player to any rank
+    children:
+      srpex.setrank.group: true
+  srpex.rankto.groupName:
+    description: Allows a player to rank someone TO the given groupName (e.g. srpex.rankto.Member)
+  srpex.rankfrom.groupName:
+    description: Allows a player to rank someone FROM the given groupName (e.g. srpex.rankfrom.Visitor)
+  srpex.reload:
+    description: Allows a player to reload the plugin

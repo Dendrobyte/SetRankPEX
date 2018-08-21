@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SetRankPEX">
+    <output-path>$PROJECT_DIR$/../MC TESTING SERVER (1.13)/plugins</output-path>
+    <root id="archive" name="SetRankPEX.jar">
+      <element id="module-output" name="SetRankPEX" />
+    </root>
+  </artifact>
+</component>
